@@ -35,3 +35,21 @@ input[type=textfield] {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     padding: 8px 18px;
 }
+/*.home {
+	width: 44px;
+	height: 18px;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #066cf0;
+}*/
+.logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  padding: 40px;
+}
