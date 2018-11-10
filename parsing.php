@@ -6,8 +6,10 @@
 		<link rel="stylesheet" type="text/css" href="/assets/style.css">
 	</head>
 	<body>
-		<p><input type="textfield" name="url" placeholder="Input URL"></p>
-		<p><input type="submit" name="parse-metatags" value="Parse metatags"></p>
+		<p>
+			<input type="textfield" name="url" placeholder="Input URL">
+			<input type="submit" name="parse-metatags" value="Parse metatags">
+		</p>
 		<div class="metatag-table"></div>
 		<script src="/assets/jquery.js"></script>
 		<script src="/assets/main.js"></script>

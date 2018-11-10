@@ -19,3 +19,19 @@ td {
     text-align: left;
     padding: 8px;
 }
+input[type=submit] {
+    color: #FFFFFF;
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+input[type=submit]:hover {
+	cursor: pointer;
+}
+input[type=textfield] {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 8px 18px;
+}
