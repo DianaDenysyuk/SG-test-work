@@ -1,3 +1,14 @@
+<?php
+require_once '/db-connect.php';
+
+$query = "SELECT * FROM meta_data";
+$result = $conn->query($query);
+
+$result_show = FALSE;
+if ($result->num_rows > 0) {
+    $result_show = TRUE;
+}
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -19,7 +30,9 @@
 							<li><a href="#">About</a></li>
 							<li><a href="#">Log In</a></li>
 							<li><a href="/parsing.php">Parsing</a></li>
-							<li><a href="/results.php">Results</a></li>
+							<?php if ($result_show) { ?>
+								<li><a href="/results.php">Results</a></li>
+							<?php } ?>
 						</ul>
 					</div>
 					<div class="started-info">
