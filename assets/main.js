@@ -41,4 +41,12 @@ jQuery(document).ready(function($){
 		    }
 		});
     });
+
+    $('.slider').slick({
+		dots: true,
+		infinite: true,
+		fade: true,
+		cssEase: 'linear',
+		arrows: false
+	});
 });
