@@ -32,13 +32,13 @@
 			<div class="header-right">
 				<div class="slider">
 					<div>
-						<img src="/assets/images/slider3.png">
+						<img src="/assets/images/slider3.jpg">
 					</div>
 					<div>
-						<img src="/assets/images/slider2.png">
+						<img src="/assets/images/slider2.jpg">
 					</div>
 					<div>
-						<img src="/assets/images/slider3.png">
+						<img src="/assets/images/slider1.jpg">
 					</div>
 				</div>
 			</div>

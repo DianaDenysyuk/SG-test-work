@@ -216,3 +216,81 @@ input[type=textfield] {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     padding: 8px 18px;
 }
+@media only screen and (max-width: 1199px) {
+  header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-menu {
+    display: none;
+  }
+  .header-left {
+    width: 100%;
+    order: 2;
+  }
+  .header-left-wrapper {
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 0;
+  }
+  .header-right {
+    width: 100%;
+    clip-path: none;
+    order: 1;
+  }
+  .started-info {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .started-info a {
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+  .slider .slick-dots {
+    text-align: center;
+    right: auto;
+    bottom: 40px;
+  }
+  .main-content-wrapper {
+    margin: 15px;
+  }
+  .main-content .information-img-wrapper {
+    margin: 0;
+  }
+  .main-content .information-img,
+  .main-content .information-text {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .main-content .information-text-wrapper {
+    margin: 0;
+  }
+  .main-content .information-block:nth-child(2) {
+    display: table;
+  }
+  .main-content .information-block:nth-child(2) .information-text {
+    display: table-footer-group;
+  }
+  .main-content .information-block:nth-child(2) .information-img {
+    display: table-header-group;
+  }
+  footer .social-icons {
+    margin: 15px;
+  }
+  footer .social-icons img {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+    margin-right: 5px;
+  }
+  footer .copyright-text {
+    float: none;
+    text-align: left;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+}
